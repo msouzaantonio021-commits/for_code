@@ -18,7 +18,7 @@ print("\n---QUE COMECE O DUELO! ----\n")
 while hp1>0 and hp2>0:
     hp2 = atacar(nome1, ataque1, nome2, hp2)
     if hp2 >0 :
-        hp1 = atacar(nome1, hp1, nome2, hp2)
+        hp1 = atacar(nome2, hp2, nome1, hp1)
 
 print("===FIM DA BATALHA===")
 if hp1>0:
